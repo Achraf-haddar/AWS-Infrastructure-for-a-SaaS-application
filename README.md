@@ -16,9 +16,12 @@ This project contains terraform configuration files on creating multi-tenancy AW
 
 **Initializing the Terraform directory:**
 Run the command: `terraform init`
+
 **Apply the Terraform Config to AWS**
 Run the command: `terraform apply`
+
 ** To get the created IAM Database Admin User login credentials**
 Run the command: `terraform output -json > terraform_output.json`
+
 **To destroy everything that was created by the Terraform Config**
 Run the command: `terraform destroy`
