@@ -20,7 +20,7 @@ Run the command: `terraform init`
 **Apply the Terraform Config to AWS**
 Run the command: `terraform apply`
 
-** To get the created IAM Database Admin User login credentials**
+**To get the created IAM Database Admin User login credentials**
 Run the command: `terraform output -json > terraform_output.json`
 
 **To destroy everything that was created by the Terraform Config**
